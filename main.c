@@ -25,38 +25,38 @@ int main()
 
         if (operation == '+')
         {
-            printf("a soma é: %d\n", num_1 + num_2);
+            printf("The sum is: %d\n", num_1 + num_2);
         }
         else if (operation == '-')
         {
-            printf("a subtração é: %d\n", num_1 - num_2);
+            printf("The subtraction is: %d\n", num_1 - num_2);
         }
         else if (operation == '*')
         {
-            printf("a multiplicação é : %d\n", num_1 * num_2);
+            printf("The multiplication is: %d\n", num_1 * num_2);
         }
         else if (operation == '/')
         {
             if (num_2 != 0)
             {
-                printf("a divisão é: %d\n", num_1 / num_2);
+                printf("The division is: %d\n", num_1 / num_2);
             }
             else
             {
-                printf("Inválido\n");
+                printf("Invalid\n");
             }
         }
         else
         {
-            printf("inválido\n");
+            printf("Invalid\n");
         }
 
-        printf("Deseja continuar? (s) (n) \n");
+        printf("Do you want to continue? (s) (n)\n");
         getchar();
         scanf(" %c", &continuar);
     }
 
-    printf("Programa encerrado. Obrigado por usar!");
+    printf("Program ended. Thank you for using!");
 
     return 0;
 }
